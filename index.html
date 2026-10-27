@@ -1,0 +1,57 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex">
+<title>Toops Coffee (DEMO)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+<style>*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0}h1,h2,h3{margin:0}.in{max-width:1040px;margin:0 auto;padding:0 20px}
+section{padding:64px 0}.items{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px}
+.cta{display:flex;flex-wrap:wrap;gap:10px;margin-top:24px}
+.btn{display:inline-block;padding:13px 24px;text-decoration:none;font-weight:600;font-size:15px;cursor:pointer;transition:.2s}
+.sw{background:#fc8019;color:#fff}.zo{background:#e23744;color:#fff}
+.gh{background:transparent;color:inherit;border:2px solid currentColor}
+.demo{position:sticky;top:0;z-index:50;text-align:center;font:600 12px/1.4 system-ui,sans-serif;padding:7px 10px;background:#ffcf33;color:#111}
+.note{font-size:14px;opacity:.7}footer{padding:30px 20px;text-align:center;font-size:13px;opacity:.8}
+@media(min-width:760px){.in{padding:0 40px}section{padding:96px 0}}
+
+.toops{background:#ffd400;color:#111;font:500 17px/1.6 'Space Grotesk',sans-serif}
+.toops h1,.toops h2,.toops h3{font-family:'Archivo Black',sans-serif;font-weight:400;text-transform:uppercase;line-height:.95}
+.toops .demo{background:#111;color:#ffd400}
+.toops .hero{padding:48px 0 40px}
+.toops .deco{display:inline-block;background:#111;color:#ffd400;font:700 12px 'Space Grotesk',sans-serif;letter-spacing:.06em;padding:8px 14px;transform:rotate(-3deg);margin-bottom:22px}
+.toops .eyebrow{font-weight:700;text-transform:uppercase;font-size:13px;margin:0 0 8px}
+.toops h1{font-size:clamp(52px,14vw,150px);letter-spacing:-.02em}
+.toops .lead{max-width:520px;font-size:19px;font-weight:600;margin-top:22px}
+.toops .btn{border:3px solid #111;box-shadow:5px 5px 0 #111;background:#fff;color:#111;border-radius:0;font-weight:700;text-transform:uppercase;font-size:14px}
+.toops .btn:hover{transform:translate(2px,2px);box-shadow:3px 3px 0 #111}
+.toops .sw{background:#fc8019}.toops .zo{background:#ff4b3e;color:#fff}
+.toops .mq{background:#111;color:#ffd400;overflow:hidden;white-space:nowrap;font:400 24px 'Archivo Black',sans-serif;padding:12px 0}
+.toops .mq span{display:inline-block;padding-left:100%;animation:mq 22s linear infinite}
+@keyframes mq{to{transform:translateX(-100%)}}
+@media(prefers-reduced-motion:reduce){.toops .mq span{animation:none;padding:0}}
+.toops section{padding:56px 0}.toops h2{font-size:clamp(34px,7vw,64px);margin-bottom:24px}
+.toops .about{background:#111;color:#ffd400}.toops .about p{max-width:640px;font-size:20px}
+.toops .items{gap:24px}
+.toops .it{background:#fffbe6;border:3px solid #111;box-shadow:6px 6px 0 #111;padding:22px}
+.toops .it:nth-child(2n){background:#fff;transform:rotate(1deg)}.toops .it:nth-child(3n){background:#ff4b3e;color:#fff;transform:rotate(-1deg)}
+.toops .it h3{font-size:24px;margin-bottom:8px}.toops .it p{margin:0}
+.toops footer{background:#111;color:#ffd400;opacity:1}
+</style></head><body class="toops">
+<div class="demo"><b>DEMO</b> &nbsp;Concept site by Vihaan. Not the official website of Toops Coffee.</div>
+<header class="hero"><div class="in"><div class="deco">Neighbourhood coffee &#9733; Jubilee Hills</div><div class="txt">
+<p class="eyebrow">Jubilee Hills, Road No. 66 &middot; Hyderabad</p><h1>Born in a garage.</h1><p class="lead">The little yellow cafe on Road No. 66, with pop-ups, live bands and a coffee habit worth having.</p>
+<div class="cta"><a class="btn sw" href="#order">Order on Swiggy</a><a class="btn zo" href="#order">Order on Zomato</a><a class="btn gh" href="#visit">Visit us</a></div>
+</div></div></header><div class="mq" aria-hidden="true"><span>COFFEE &bull; POP-UPS &bull; LIVE BANDS &bull; THE LITTLE YELLOW CAFE &bull; COFFEE &bull; POP-UPS &bull; LIVE BANDS &bull; THE LITTLE YELLOW CAFE &bull; </span></div>
+<section class="about"><div class="in"><h2>From garage to neighbourhood gem</h2><p>Toops began as an experiment in founder Sooraj Toopalli's garage when the pandemic hit, and grew into a much-loved corner of Jubilee Hills. Come for the coffee, stay for the pop-ups and live bands.</p></div></section>
+<section class="menu"><div class="in"><h2>What's brewing</h2><div class="items"><div class="it"><h3>Daily Coffee</h3><p>Fresh cups, from early morning on.</p></div><div class="it"><h3>Pop-Up Days</h3><p>Local makers and guest stalls.</p></div><div class="it"><h3>Live Band Nights</h3><p>Live music, now and then.</p></div></div>
+<p class="note">Full menu, prices and photos to be added once confirmed with the cafe.</p></div></section>
+<section class="order" id="order"><div class="in"><h2>Order in</h2><p>Craving it right now? Get it delivered.</p>
+<!-- TODO: replace with the cafe's real Swiggy and Zomato listing links -->
+<div class="cta"><a class="btn sw" href="https://www.swiggy.com/" target="_blank" rel="noopener">Order on Swiggy</a>
+<a class="btn zo" href="https://www.zomato.com/hyderabad" target="_blank" rel="noopener">Order on Zomato</a></div></div></section>
+<section class="visit" id="visit"><div class="in"><h2>Visit us</h2><p>Plot 1316/A, Rd Number 66, Jubilee Hills, Hyderabad<br>
+<span class="note">Address from press listings, please confirm. Hours and phone number to be added.</span></p>
+<div class="cta"><a class="btn gh" href="https://www.google.com/maps/search/?api=1&query=Toops+Coffee+Jubilee+Hills,+Road+No.+66+Hyderabad" target="_blank" rel="noopener">Get directions</a>
+<a class="btn gh" href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a></div></div></section>
+<footer>&copy; Toops Coffee &middot; DEMO concept by Vihaan. Details and images are placeholders until approved by the cafe.</footer>
+</body></html>
